@@ -208,7 +208,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=blinkDemo
+CMAKE_PROJECT_NAME:STATIC=SETR_Assignment3
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=2.7.99
@@ -347,6 +347,12 @@ PYTHON_PREFER_EXECUTABLE:FILEPATH=C:/Users/joaop/ncs/v1.9.1/toolchain/opt/bin/py
 
 //NCS Toolchain Python
 Python3_EXECUTABLE:FILEPATH=C:/Users/joaop/ncs/v1.9.1/toolchain/opt/bin/python.exe
+
+//Value Computed by CMake
+SETR_Assignment3_BINARY_DIR:STATIC=D:/ProjetosSETR/SETR_Assignment3/build_nrf52840dk_nrf52840
+
+//Value Computed by CMake
+SETR_Assignment3_SOURCE_DIR:STATIC=D:/ProjetosSETR/SETR_Assignment3
 
 //True if toolchain supports newlib
 TOOLCHAIN_HAS_NEWLIB:BOOL=ON

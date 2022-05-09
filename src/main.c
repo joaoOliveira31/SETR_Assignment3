@@ -8,14 +8,13 @@
 #include <timing/timing.h>
 #include <stdio.h>
 #include <string.h>
-#include "placa.c"
+#include "placa.h"
 
 
 /* Main function */
 void main(void) {
 
     InitConfig();
-    printk("OLAAAA\r\n");
     while(1) {                  
         if(dcToggleFlag){
           if(dcToggleFlag == 1)

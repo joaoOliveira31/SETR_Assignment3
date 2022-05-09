@@ -1,4 +1,4 @@
-CMakeFiles/app.dir/src/main.c.obj: ../src/main.c \
+CMakeFiles/app.dir/src/placa.c.obj: ../src/placa.c \
  D:/ProjetosSETR/SETR_Assignment3/build_nrf52840dk_nrf52840/zephyr/include/generated/autoconf.h \
  C:/Users/joaop/ncs/v1.9.1/zephyr/include/toolchain/zephyr_stdint.h \
  C:/Users/joaop/ncs/v1.9.1/zephyr/include/zephyr.h \

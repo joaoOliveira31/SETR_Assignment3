@@ -16,7 +16,6 @@
   <ProjectSessionItem path="SETR_Assignment3;build;all"/>
   <ProjectSessionItem path="SETR_Assignment3;build;app/libapp.a"/>
   <ProjectSessionItem path="SETR_Assignment3;build;app/libapp.a;C_COMPILER__app_"/>
-  <ProjectSessionItem path="SETR_Assignment3;build;zephyr/zephyr.elf"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -40,6 +39,10 @@
  <Watch4>
   <Watches active="0" update="Never"/>
  </Watch4>
- <Files/>
- <ARMCrossStudioWindow activeProject="zephyr/zephyr.elf(build)" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="16" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/main.c" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="26" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/placa.c" selected="0" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="24" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/placa.h" selected="0" top="0" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="app/libapp.a(build)" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/ProjetosSETR/SETR_Assignment3" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

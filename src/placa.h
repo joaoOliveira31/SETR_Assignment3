@@ -1,3 +1,14 @@
+/** @file Placa.h
+ * @brief Variaveis e programação da placa
+ *
+ * Este modulo inicia as portas da placa que queremos usar e verifica
+ * se não ocorreu nenhum erro
+ * 
+ * 
+ * @author João Oliveira
+ * @bug No known bugs.
+ */
+
 #ifndef _PLACA_H
 #define _PLACA_H
 
@@ -14,8 +25,8 @@
 #define coin50 0x1E
 #define coin100 0x1F
 
-volatile int dcToggleFlag;
-volatile int coinv;
+extern volatile int dcToggleFlag;
+extern volatile int coinv;
 
 void button1_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins);
 void button2_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins);
@@ -26,6 +37,11 @@ void coin20_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t
 void coin50_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins);
 void coin100_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins);
 
+/**
+ * @brief Inicia o Modulo
+ * 
+ * Esta função inicializa o modulo
+ */
 void InitConfig(void);
 
 #endif

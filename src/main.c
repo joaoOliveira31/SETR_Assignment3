@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "placa.h"
+#include "StateMachine.h"
 
 
 /* Main function */
@@ -16,32 +17,11 @@ void main(void) {
 
     InitConfig();
     while(1) {                  
-        if(dcToggleFlag){
-          if(dcToggleFlag == 1)
-            printk("Botão 1 pressionado\r\n");
-          else if(dcToggleFlag == 2)
-            printk("Botão 2 pressionado\r\n");
-          else if(dcToggleFlag == 3)
-            printk("Botão 3 pressionado\r\n");
-          else if(dcToggleFlag == 4)
-            printk("Botão 4 pressionado\r\n");
-          else if(dcToggleFlag == 5){
-            printk("Botao Moedas pressionado\r\n");
-            printf("FLAG = %d\r\n",dcToggleFlag);
-            printf("COIN = %d\r\n",coinv);
-          }
-          else
-            printk("wut?\r\n");
-
-          dcToggleFlag = 0;
-        }
+      printk("Flag = %d,Coin = %d\r\n",dcToggleFlag,coinv);
+      dcToggleFlag=0;
+      coinv=0;
+      k_msleep(100);
     }
     
     return;
 } 
-
-
-
-
-
-

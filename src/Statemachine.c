@@ -17,7 +17,7 @@
 #include <string.h>
 #include "placa.h"
 
-int state=inicio; 
+volatile int state = inicio; 
 void StateMachine()
 {
    

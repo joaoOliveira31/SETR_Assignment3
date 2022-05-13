@@ -16,7 +16,8 @@
 void main(void) {
 
     InitConfig();
-    while(1) {                  
+    while(1) {   
+      StateMachine();
       printk("Flag = %d,Coin = %d\r\n",dcToggleFlag,coinv);
       dcToggleFlag=0;
       coinv=0;

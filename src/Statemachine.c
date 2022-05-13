@@ -17,10 +17,10 @@
 #include <string.h>
 #include "placa.h"
 
-
+int state=inicio; 
 void StateMachine()
 {
-   int state = inicio; 
+   
    int nextstate;
    int credito,custo;
    char produto;

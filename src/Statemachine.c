@@ -20,8 +20,9 @@
 
 void StateMachine()
 {
-   int state,nextstate = inicio; 
-   int credito,custo = 0;
+   int state = inicio; 
+   int nextstate;
+   int credito,custo;
    char produto;
  
    switch (state) 

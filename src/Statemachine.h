@@ -8,6 +8,18 @@
  * @bug No known bugs.
  */
 
+#include <zephyr.h>
+#include <device.h>
+#include <devicetree.h>
+#include <drivers/gpio.h>
+#include <sys/printk.h>
+#include <sys/__assert.h>
+#include <string.h>
+#include <timing/timing.h>
+#include <stdio.h>
+#include <string.h>
+#include "placa.h"
+
 //estados
 #define inicio 0
 #define beer 1
@@ -17,16 +29,15 @@
 #define retorno 5
 
 //acoes/flags
-#define coffee 6
+
 #define up 1
 #define down 2
-#define select 4
 #define bretorno 3
+#define select 4
 #define moeda 5
+#define coffee 6
 
- int custo;
- int produto;
- int state;
- int credito;
+ extern volatile int state;
 
-void Statemachine(void);
+
+void StateMachinee(void);

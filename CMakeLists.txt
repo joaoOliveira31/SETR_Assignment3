@@ -5,5 +5,5 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(SETR_Assignment3)
 
 target_sources(app PRIVATE src/main.c)
-
-target_sources(app PRIVATE src/placa.c)  #Add this line
+target_sources(app PRIVATE src/placa.c)
+target_sources(app PRIVATE src/StateMachine.c)

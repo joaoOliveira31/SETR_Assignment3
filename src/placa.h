@@ -5,7 +5,7 @@
  * se não ocorreu nenhum erro
  * 
  * 
- * @author João Oliveira
+ * @author Goncalo Moniz, João Oliveira, Diogo Leão
  * @bug No known bugs.
  */
 

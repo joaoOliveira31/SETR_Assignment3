@@ -1,18 +1,10 @@
-# SETR_Assignment3
-
-/**
-
 @mainpage SETR Assignment 3 
 
-@author João Oliveira
-@author Gonçalo Moniz
-@author Diogo Leão
+@author Goncalo Moniz, João Oliveira, Diogo Leão
 
-Here you should describe the app: what is the purpose, how to use,
-special rules, restrictions, ...
-Also bugs should be listed here.
-In summary, anything that you think a user needs to know should go here.
+Máquina de venda com 3 produtos: Beer, Tuna Sandwich, Coffee.\n
+Este programa tem 8 botões, sendo 4 de adicionar moedas e 4 de ação.\n
+No adicionar moedas, tem de 0.1Eur, 0.2Eur, 0.5Eur e 1Eur.\n
+No ação há os botões de Browse Up, Browse Down, Select e Reset.\n
 
-
-*/
-
+@bug No known bugs.

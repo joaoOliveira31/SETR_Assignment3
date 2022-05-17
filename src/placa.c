@@ -78,9 +78,6 @@ void InitConfig(void){
     int ret=0;                              /* Generic return value variable */
 
 
-    /* Task init code */
-    printk("LEDs com os seus botões \n");
-
     /* Bind to GPIO 0 */
     gpio0_dev = device_get_binding(DT_LABEL(GPIO0_NID));
     if (gpio0_dev == NULL) {
@@ -191,6 +188,9 @@ void InitConfig(void){
 
 	gpio_init_callback(&coin100_cb_data, coin100_pressed, BIT(coin100));
 	gpio_add_callback(gpio0_dev, &coin100_cb_data);
+
+	/* Task init code */
+    printk("Vending Machine \n");
 
         return;
 }

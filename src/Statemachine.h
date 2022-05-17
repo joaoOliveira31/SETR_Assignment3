@@ -1,10 +1,11 @@
 /** @file StateMachine.h
- * @brief Variaveis e programação da maquina de estados
+ * @brief Programa Máquina de estados
  *
- * Este modulo inicia a maquina de estados
+ * Este modulo executa a máquina de estados a cada 100ms e tem 7 estados: 
+ * Pagina Inicial, Beer, Tuna Sandwich, Coffee, Select, Inserir, Retorno
  * 
  * 
- * @author Goncalo Moniz
+ * @author Goncalo Moniz, João Oliveira, Diogo Leão
  * @bug No known bugs.
  */
 
@@ -39,5 +40,8 @@
 
  extern volatile int state;
 
-
+/**
+ * @brief Executa a máquna de estados
+ * 
+ */
 void StateMachinee(void);
